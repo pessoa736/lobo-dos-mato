@@ -1,25 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base/index.html' %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Landing Page</title>
+{% block content %}
     {% load static %}
-    <link rel="stylesheet" href="{% static 'loboCozinha/css/base.css' %}">
-</head>
-<body>
-    {% include 'ui/header/index.html' %}
-    <div>
-        <img 
-            style="width: 100%;"
-            src="{% static 'loboCozinha/imgs/image 1.png' %}" 
-            alt="Logo" 
-        />
-    </div>
-    <main>
-        
-    </main>
-    {% include 'ui/footer/index.html' %}
-</body>
-</html>
+    <img 
+        style=" width: 100%;"
+        src="{% static 'loboCozinha/imgs/image 1.png' %}" alt="background" 
+    />
+{% endblock %}
