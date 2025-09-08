@@ -7,7 +7,7 @@ header {
     align-items: center;
     position: sticky;
     height: 88px;
-    backdrop-filter: blur(8px) saturate(180%);
+    backdrop-filter: blur(10px) saturate(180%);
     top: 0;
     z-index: 1000;
     padding: 20px 5%;
