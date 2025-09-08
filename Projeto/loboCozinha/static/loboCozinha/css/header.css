@@ -1,0 +1,40 @@
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    height: 88px;
+    backdrop-filter: blur(8px) saturate(180%);
+    top: 0;
+    z-index: 1000;
+    padding: 20px 5%;
+    background-color: #3f2305de;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    font-weight: 700;
+    font-size: larger;
+    gap: 38px;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    background-color: white;
+    font-weight: 700;
+    font-size: x-large;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
